@@ -1,0 +1,1 @@
+Discount at days = 30
