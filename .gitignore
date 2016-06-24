@@ -82,6 +82,32 @@ celerybeat-schedule
 venv/
 ENV/
 
+.iws
+**/.idea/workspace.xml
+**/.idea/tasks.xml
+# User-specific stuff:
+**/.idea/workspace.xml
+**/.idea/tasks.xml
+**/.idea/dictionaries
+**/.idea/vcs.xml
+**/.idea/jsLibraryMappings.xml
+
+# Sensitive or high-churn files:
+**/.idea/dataSources.ids
+**/.idea/dataSources.xml
+**/.idea/dataSources.local.xml
+**/.idea/sqlDataSources.xml
+**/.idea/dynamic.xml
+**/.idea/uiDesigner.xml
+
+# Gradle:
+**/.idea/gradle.xml
+**/.idea/libraries
+
+# Mongo Explorer plugin:
+.idea/mongoSettings.xml
+
+
 # Spyder project settings
 .spyderproject
 
@@ -117,3 +143,7 @@ ENV/
 *.exe
 *.out
 *.app
+
+
+#custom
+**/textclassification/test.csv
